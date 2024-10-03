@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Raleway";
+  src: url(../fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Open_Sans";
+  src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth\wght.ttf);
+}
+@font-face {
+  font-family: "Robot";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}

@@ -1,0 +1,74 @@
+.saying {
+  padding: 35px 0px 120px;
+}
+.saying-item-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 67px -15px 0px;
+}
+.saying-item {
+  width: 298px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+}
+.saying-item-text {
+  background-color: #e2e2e2;
+  padding: 9px 22px;
+  border-radius: 7px;
+  position: relative;
+  flex-grow: 1;
+}
+
+.saying-item-text::after {
+  /*треугольник*/
+  content: "";
+  display: inline-block;
+  position: absolute;
+  border: 20px solid transparent;
+  border-top: 20px solid #e2e2e2;
+  top: 100%;
+  left: 15.77%;
+}
+.saying-item-text p {
+  text-align: center;
+  color: #86878b;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.saying-item-content {
+  width: 215px;
+  display: flex;
+  justify-content: space-between;
+  margin: 22px auto 0px;
+}
+.saying-item-content-img {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.saying-item-content-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.saying-item-content-text-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.saying-item-content-title {
+  font-size: 1.25em;
+  font-weight: 700;
+  text-align: center;
+  color: #333333;
+}
+
+.saying-item-content-text p {
+  font-size: 0.875em;
+  font-weight: 400;
+  color: #86878b;
+}

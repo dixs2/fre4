@@ -1,0 +1,28 @@
+.footer {
+  background-color: #000000;
+  padding: 30px 0px 15px;
+}
+.footer-navegator {
+  display: flex;
+  justify-content: center;
+}
+.footer-list {
+  display: flex;
+}
+.footer-list-item {
+  margin: 0px 15px;
+}
+.footer-text {
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+}
+.footer-text p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.75em;
+}
+.footer-icons {
+  font-size: 1.375em;
+  color: #86878b;
+  transition: 0.5s;
+}

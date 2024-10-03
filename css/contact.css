@@ -1,0 +1,56 @@
+.contact {
+  padding: 80px 0 44px;
+}
+.form-contact {
+  margin-top: 89px;
+}
+.form-contact-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
+.form-contact-left {
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+  width: 41%;
+}
+.form-contact-label:first-child {
+  margin-top: 0px;
+}
+.form-contact-label {
+  margin-top: 47px;
+}
+.form-contact-input {
+  border: 2px solid #bdbdbd;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  margin-top: 16px;
+  width: 100%;
+}
+.form-contact-right {
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+  width: 41%;
+}
+#massage {
+  width: 100%;
+  resize: none;
+  border: 2px solid #bdbdbd;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  flex-grow: 1;
+}
+.form-contact-buttom {
+  display: block;
+  background-color: #ec7979;
+  color: #ffffff;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  padding: 10px 32px;
+  border: 0px;
+  margin: 65px auto 0;
+}
